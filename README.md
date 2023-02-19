@@ -14,6 +14,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+In the project directory, you can run:
+
+### `json-server --watch "./src/data/productsList.json"`
+
+Runs the json server in the development mode.\
+Open the specific localhost url shown in command line to view it in your browser.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
