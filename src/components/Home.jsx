@@ -7,7 +7,6 @@ const Home = () => {
   const { addToCart, removeFromCart } = cartSlice.actions;
   const dispatch = useDispatch();
   const { cartProductIds } = useSelector((state) => state.cart)
-  console.log(cartProductIds)
 
   return (
     <div className=' grid grid-cols-2 place-items-center  md:grid-cols-3 lg:grid-cols-5 gap-x-5 gap-y-9 p-7'>
